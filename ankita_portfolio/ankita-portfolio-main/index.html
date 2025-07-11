@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankita Chavan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#org">Organizations</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Ankita A Chavan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#org" onclick="toggleMenu()">Certificates</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Profile.jpeg" alt="My Profile Picture" />
+      </div>
+      
+      <div class="section__text">
+        <h1 class="title">I'm Ankita Chavan</h1>
+        <p class="section__text__p2">Graduate Student at KLS Vishwanathrao Deshpande Institute of Technology<br>BE in Electronics and Communication</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume.pdf')"
+          >
+            Resume
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/ankita-chavan-bbb42425b'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/ankita-302003'"
+          />
+          <img
+            src="./assets/Hackerrank.png"
+            alt="My Hackerrank profile"
+            class="icon"
+            onclick="location.href='https://www.hackerrank.com/profile/ankitachavan2221'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">About Me</h1>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2>Education</h2><br />
+              <h3>KLS Vishwanathrao Deshpande Institute of Technology Collage Of Engineering, India</h3>
+              <p>I am a passionate and motivated engineering graduate with a background in Electronics and Communication. I enjoy turning ideas into real-world solutions through problem-solving, creativity, and continuous learning. My interests lie in software development. With a strong foundation in software, I aim to build impactful projects and grow as a well-rounded technology professional.</p>
+              <p>CGPA : 8.4/10</p><br />
+            </div>
+          </div>
+         </div>
+         <div class="about-details-container">
+          <div class="about-containers"> 
+            <div class="details-container">
+              <h2>Experience</h2>
+                <div class="about-containers"> 
+                  <div class="details-container">
+                    <h3>Intern | National Academy of Skill Development | Dandeli</h3>
+                    <p>Gained hands-on experience in front-end web development using HTML, CSS, Basics of JavaScript. <br />Built and styled responsive web pages, applying modern design principles. <br />Succesfully completed the internship with an 'A+ grade', demonstrating strong performance and commitment.</p>
+                  </div>
+                </div>
+                <div class="about-containers">
+                  <div class="details-container">
+                    <h3>Hackathon Participant | WAVE 2.0 | AICTE IDEA Laboratory | Basaveshwar Engineering College | Bagalkot</h3>
+                    <p>Participated in a 24-hour national level hackathon and developed a Table Reservation Web Application from scratch.<br />Utilized HTML, CSS and JavaScript for frontend development, ensuring a responsive and user-friendly interface.<br />Collaborated with team members using Bootstrap for styling and PHP with MySQL for back-end and database management.<br />Personally contributed to designing and developing the front-end of the application, focusing on clean UI and smooth functionality.</p>
+                  </div>
+                </div>
+                <div class="about-containers">
+                  <div class="details-container">
+                    <h3>Hackathon Participant | Avinya | KLS VDIT | Haliyal</h3>
+                    <p>Designed and implemented an object detection alarm system using an Ultrasonic Sensor and Arduino.<br />The system triggered an alarm when an object was detected within a certain range, showcasing basic automation and real-time response. <br />Gained hands-on experience with Arduino programming, sensor integration, and circuit design.<br />Focused on coding, sensor calibration, and optimizing detection accuracy dusring the hackathon.</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+         </div>
+         <div class="about-details-container">
+          <div class="about-containers"> 
+            <div class="details-container">
+              <h3>Publication</h3><br />
+              <p>Ms. Ankita A Chavan, Mr. Abdul Shaikh, Mr. Rahul Madiwal, Mr. Atiqur Rehman Sayed, Dr. Madhusudan Kulkarni, "Handwriting Recognition and Information Retrieval System", International Conference on Next Generation of Green Information and Emerging Technologies, 10th May 2025.</p>
+                <br />
+                <button
+                  class="btn btn-color-2"
+                  onclick="window.open('./assets/IEEE_Paper.pdf')">
+                  Paper
+                </button>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="experience">
+      <h1 class="title">Skills</h1>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h3>Programming</h3><br />
+            <p>Python Programming<br/></p><br />
+            <h3>Web Technologies</h3><br />
+            <p>HTML, CSS, JavaScript<br/></p><br />
+            <h3>Tool/Software</h3><br />
+            <p>VS Code, MySQL, Git/GitHub, Microsoft Office Word and Power Point<br /></p><br />      
+            <h3>Soft Skills</h3><br />
+            <p> Management and coordination skills, Problem Solving, Time management, Team Work, Communication<br/></p><br />      
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2>Handwriting Recognition And Information Retrieval System</h2><br />
+            <h4>KLS VDIT, Haliyal</h4><br />
+            <p>Designed a system that converts handwritten text into readable digital content and retrieves relevant information based on the extracted data. The solution focuses on accurately interpreting handwritten input and efficiently searching through stored records to present meaningful results. This project highlights skills in problem-solving, data processing, and intelligent information management.</p><br/>
+            <div class="btn-container">
+              <button
+                  class="btn btn-color-2"
+                  onclick="window.open('./assets/IEEE_Paper.pdf')">
+                  Paper
+                </button>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2>Table Reservation System</h2><br />
+            <h4>Hackathon | Wave 2.0</h4><br />
+            <p>Built a smart table reservation system designed to streamline the booking process for restaurants and cafes. The system allows users to check real-time availability, reserve tables in advance, and receive instant booking confirmations. Developed under time constraints during a hackathon, the project emphasizes quick problem-solving, team collaboration, and efficient user experience design.<br /><br/>
+          </div>
+          <div class="details-container">
+            <h2>My Portfolio</h2><br />
+            <h4>Personal</h4><br />
+            <p>This portfolio showcases a collection of projects that reflect my passion for building practical and user-focused solutions. Each project demonstrates my ability to analyze real-world problems, design efficient systems, and deliver results under deadlines. The work featured here represents my growth, creativity, and commitment to continuous learning.</p><br/>
+          </div>
+        </div>
+      </div> 
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2>Object Detection Alarm Using Ultrasonic Sensor And Arduino</h2><br />
+            <h4>KLS VDIT, Haliyal</h4><br />
+            <p>Designed a system that detects nearby objects and triggers an alert when an object is within a certain distance. The project focuses on real-time obstacle detection and warning mechanisms, ideal for applications like automated security, parking assistance, or blind spot monitoring. It highlights skills in sensor-based input handling, system design, and automation logic.</p><br/>
+          </div>
+          <div class="details-container">
+            <h2>16:8 Multiplexer (VLSI)</h2><br />
+            <h4>KLS VDIT, Haliyal</h4><p>Developed and implemented a 16-to-8 multiplexer as part of a digital circuit design project. The design focused on optimizing area, speed, and power efficiency using VLSI principles. The project demonstrates understanding of digital logic, hierarchical circuit design, and hardware optimization techniques essential for integrated circuit development.</p><br/>          
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="org">
+      <h1 class="title">Certificates</h1>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <p><b>Hackathon | Wave 2.0 Certificate</b>, Bagalkote.<div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Wave.jpeg')"
+          >
+            Wave 2.0
+          </button>
+        </div></p><br/>
+            <p><b>Hackathon | Avinya Certificate</b>, Haliyal.<div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Avinya.jpeg')"
+          >
+            Avinya
+          </button>
+        </div></p><br/>
+            <p><b>Internship Certificate</b>, Dandeli.<div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Intern.jpeg')"
+          >
+            Internship
+          </button>
+        </div></p><br />
+            <p><b>Python Certificate</b>, Scaler.<div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Python.jpeg')"
+          >
+            Python
+          </button>
+        </div></p><br />
+            <p><b>CSS Certifiacte</b>, Hackerrank.<div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CSS.pdf')"
+          >
+            CSS
+          </button>
+        </div></p><br />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="title">Get in Touch</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+          <p><a href="mailto:examplemail@gmail.com">ankitachavan222003@gmail.com</a><br><a href="mailto:examplemail@gmail.com">ankitachavan3022@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/phone.jpg" alt="Call icon" class="icon contact-icon">
+          <p><a href="tel: +91-8073843742">Reach Out </a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+          <p><a href="https://www.linkedin.com/in/ankita-chavan-bbb42425b">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/github.png" alt="Github icon" class="icon contact-icon">
+          <p><a href="https://github.com/ankita-302003">Github</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#org">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>© Ankita A Chavan | 2025</p>
+    </footer>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
